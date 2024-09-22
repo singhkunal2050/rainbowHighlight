@@ -1,0 +1,17 @@
+{
+  "name": "@singhkunal2050/rainbow-highlight",
+  "version": "1.0.0",
+  "description": "A package to add colorful highlights to text, with additional utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rainbow",
+    "highlight",
+    "text",
+    "color"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
