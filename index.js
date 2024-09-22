@@ -5,7 +5,7 @@ function rainbowHighlight(text) {
   let result = '';
   for (let i = 0; i < text.length; i++) {
     const color = rainbow[i % rainbow.length];
-    result += `<span style="background-color: ${color};">${text[i]}</span>`;
+    result += `<span style="color: ${color};">${text[i]}</span>`;
   }
   return result;
 }
@@ -13,7 +13,7 @@ function rainbowHighlight(text) {
 function randomHighlight(text) {
   return _.map(text, char => {
     const randomColor = _.sample(['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']);
-    return `<span style="background-color: ${randomColor};">${char}</span>`;
+    return `<span style="color: ${randomColor};">${char}</span>`;
   }).join('');
 }
 
