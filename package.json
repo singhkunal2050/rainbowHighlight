@@ -1,6 +1,6 @@
 {
   "name": "@singhkunal2050/rainbow-highlight",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package to add colorful highlights to text, with additional utilities",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,8 @@
     "color"
   ],
   "author": "Your Name",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
